@@ -15,4 +15,3 @@ function notify() {
 		var notify = new Notification('hello button!',{});
 	}
 }
-//setTimeout(notify, )
