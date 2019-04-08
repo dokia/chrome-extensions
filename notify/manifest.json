@@ -1,0 +1,14 @@
+{
+	"name": "Personal notify",
+	"version": "1.0",
+	"description": "Notify you!",
+	"permissions": ["storage", "notifications"],
+	"browser_action": {
+    	"default_popup": "./html/popup.html"
+    },
+	"background": {
+    	"scripts": ["./scripts/background.js"],
+    	"persistent": false
+  	},
+	"manifest_version": 2
+}
